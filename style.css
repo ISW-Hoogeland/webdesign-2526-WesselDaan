@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-:root { 
-  --bg-light: C9E4CA;
-    --tekst
-=======
+
 :root {
 --bg-light: #C9E4CA; 
 --text-dark: #364958; 
@@ -11,11 +7,10 @@
 --h1-bg: #87BBA2; 
 --h1-text: #3B6064;
 --h2-text: #55828B;
---h2-border: var(var(--h1-bg));
+--h2-border: var(--h1-bg);
 }
 
->>>>>>> 4acab40 (ik heb de root toegevoeg in de css)
-body {
+body { 
 display: grid;
 grid-template-areas:
 "header nav"
@@ -27,7 +22,8 @@ grid-template-rows: 120px 1fr 60px;
 header {
 grid-area: header;
 }
- <nav>
+
+<nav>
  <ul>
  <li> 
  <a href='voetbal.hmtl'>Voetbal⚽</a>
@@ -57,9 +53,5 @@ grid-area: main;
 }
 footer {
 grid-area: footer;
-}`
-h1{
-    background-color: #C9E4CA;
-
-
 }
+
