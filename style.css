@@ -1,6 +1,20 @@
+<<<<<<< HEAD
 :root { 
   --bg-light: C9E4CA;
     --tekst
+=======
+:root {
+--bg-light: #C9E4CA; 
+--text-dark: #364958; 
+--font-main: 'Segoe UI', sans-serif;
+
+--h1-bg: #87BBA2; 
+--h1-text: #3B6064;
+--h2-text: #55828B;
+--h2-border: var(var(--h1-bg));
+}
+
+>>>>>>> 4acab40 (ik heb de root toegevoeg in de css)
 body {
 display: grid;
 grid-template-areas:
@@ -13,9 +27,19 @@ grid-template-rows: 120px 1fr 60px;
 header {
 grid-area: header;
 }
-nav {
-grid-area: nav;
-}
+ <nav>
+ <ul>
+ <li> 
+ <a href='voetbal.hmtl'>Voetbal⚽</a>
+</li>
+ <li> 
+ <a href='over mij.hmtl'>Over mij👦🏽</a>
+</li>   
+<li> 
+<a href='school.hmtl'>School🏫📚</a>
+</li>
+ </ul>
+ </nav>
 main {
 grid-area: main;
 }
