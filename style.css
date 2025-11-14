@@ -40,9 +40,26 @@ grid-area: header;
 </li>
  </ul>
  </nav>
+  nav ul {
+ list-style: none;
+ display: flex;
+ gap: 15px;
+ }
+ nav a {
+ text-decoration: none; 
+}
+ nav a:hover {
+ text-decoration: underline;
+ }
+
 main {
 grid-area: main;
 }
 footer {
 grid-area: footer;
+}`
+h1{
+    background-color: #C9E4CA;
+
+
 }
