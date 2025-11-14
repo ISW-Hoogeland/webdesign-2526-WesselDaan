@@ -23,31 +23,6 @@ header {
 grid-area: header;
 }
 
-<nav>
- <ul>
- <li> 
- <a href='voetbal.hmtl'>Voetbal⚽</a>
-</li>
- <li> 
- <a href='over mij.hmtl'>Over mij👦🏽</a>
-</li>   
-<li> 
-<a href='school.hmtl'>School🏫📚</a>
-</li>
- </ul>
- </nav>
-  nav ul {
- list-style: none;
- display: flex;
- gap: 15px;
- }
- nav a {
- text-decoration: none; 
-}
- nav a:hover {
- text-decoration: underline;
- }
-
 main {
 grid-area: main;
 }
