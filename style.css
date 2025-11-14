@@ -1,3 +1,6 @@
+:root { 
+  --bg-light: C9E4CA;
+    --tekst
 body {
 display: grid;
 grid-template-areas:
