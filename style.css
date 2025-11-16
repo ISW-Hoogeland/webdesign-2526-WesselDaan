@@ -17,7 +17,7 @@ grid-template-areas:
 "nav main"
 "footer footer";
 grid-template-columns: 1fr 5fr;
-grid-template-rows: 30px 1fr 30px;
+grid-template-rows: 90px 1fr 30px;
 }
 header {
 grid-area: header;
@@ -46,3 +46,9 @@ background-color: #364958;
 color: #87BBA2;
 }
 
+h1 {
+    font-size: 2.2rem;
+}
+h2 {
+    font-size: 0.8rem;
+}
