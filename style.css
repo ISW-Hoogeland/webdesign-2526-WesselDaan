@@ -2,7 +2,7 @@
 :root {
 --bg-light: #C9E4CA; 
 --text-dark: #364958; 
---font-main: 'Segoe UI', sans-serif;
+--font-main: 'Segoe UI', parisienne static;
 
 --h1-bg: #87BBA2; 
 --h1-text: #3B6064;
@@ -21,10 +21,20 @@ grid-template-rows: 120px 1fr 60px;
 }
 header {
 grid-area: header;
+background-color: #87BBA2;
+color: #3B6064
+}
+
+nav {
+    grid-area: nav;
+background-color: #87BBA2;
+color: #3B6064
 }
 
 main {
 grid-area: main;
+background-color: #C9E4CA;
+color: #364958
 }
 footer {
 grid-area: footer;
